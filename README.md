@@ -2,6 +2,25 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Aditional tools 
+Openweather API: https://openweathermap.org/ used for fetching weather information.
+Tailwind CSS: https://tailwindcss.com/docs/guides/create-react-app is used for as css library for this project
+
+# React best-pracices used in this project
+Funcational Component.
+React hooks(useState, useEffect) for functional component.
+SpreadOperator.
+Two way component binding by pasing data from parent component to child as well as child to parent.
+Destructuring.
+
+# Application features.
+1. By default show current weather information of Kokata, India location and weather information default unit is celsius.
+2. User can Search weather of any city using text field and then click search icon.
+3. User can see weather of user location clicking on location icon.
+4. User can change the weather informations Unit to celsius to  fahrenheit and vice versa.
+5. User iwill see error message if they search using invalid city name.
+6. Weather forecast for future days is the forecasted data of 11AM of the respective days and Forecast weather is the temparature of the specific time(11 AM) of particular day. Its not the max or min temaprature
+
 ## Available Scripts
 
 In the project directory, you can run:
