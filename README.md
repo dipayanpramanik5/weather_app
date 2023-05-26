@@ -2,16 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Aditional tools 
-Openweather API: https://openweathermap.org/ used for fetching weather information.
-Tailwind CSS: https://tailwindcss.com/docs/guides/create-react-app is used for as css library for this project
+# External tools used for building this application 
+1. Openweather API: https://openweathermap.org/ used for fetching weather information.
+2. Tailwind CSS: https://tailwindcss.com/docs/guides/create-react-app is used for as css library for this project
 
 # React best-pracices used in this project
-Funcational Component.
-React hooks(useState, useEffect) for functional component.
-SpreadOperator.
-Two way component binding by pasing data from parent component to child as well as child to parent.
-Destructuring.
+1. Funcational Component.
+2. React hooks(useState, useEffect) for functional component.
+3. SpreadOperator.
+4. Two way component binding by pasing data from parent component to child as well as child to parent.
+5. Destructuring of array and object.
 
 # Application features.
 1. By default show current weather information of Kokata, India location and weather information default unit is celsius.
