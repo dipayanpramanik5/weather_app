@@ -21,6 +21,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 5. User iwill see error message if they search using invalid city name.
 6. Weather forecast for future days is the forecasted data of 11AM of the respective days and Forecast weather is the temparature of the specific time(11 AM) of particular day. Its not the max or min temaprature
 
+# Documentation of the API used here in the application.
+1. Current Weather: https://openweathermap.org/current.
+2. 3 hour forecast 5 days: https://openweathermap.org/forecast5. 
+
 ## Available Scripts
 
 In the project directory, you can run:
