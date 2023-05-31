@@ -42,6 +42,14 @@ function App() {
     setunits(unit);
   }
 
+  let weatherUnit = 'C';
+  let windSpeedUnit = 'm/s';
+
+  if (units == 'imperial') {
+    weatherUnit = 'F';
+    windSpeedUnit = 'mph';
+  }
+
   return (
     <div className="mx-auto max-w-screen-md mt-4 py-5 px-32 bg-gradient-to-br from-cyan-700 to-blue-700 h-fit shadow-xl shadow-grey-400">
       <StatusMessage messageData={message} />
@@ -49,8 +57,8 @@ function App() {
       {weather && (
         <div>
           <TimeAndLocation weather={weather} />
-          <TemparatureAndDetails weather={weather} />
-          <Forecast title={"Daily Forecast"} items={weather.daily} />
+          <TemparatureAndDetails weather={weather} weatherUnit={weatherUnit} windSpeedUnit={windSpeedUnit} />
+          <Forecast title={"Daily Forecast"} items={weather.daily} weatherUnit={weatherUnit} />
         </div>
       )}
     </div>

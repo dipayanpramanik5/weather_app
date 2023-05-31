@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Forecast({ title, items }) {
+function Forecast({ title, items, weatherUnit }) {
     return (
         <div>
             <div className='flex item-center justify-start my-6'>
@@ -17,7 +17,7 @@ function Forecast({ title, items }) {
                             {item.title}
                         </p>
                         <img src="http://openweathermap.org/img/wn/01d@2x.png" className='w-12 my-1' />
-                        <p className='font-medium'>{`${item.temp.toFixed()}"`}</p>
+                        <p className='font-medium'>{`${item.temp.toFixed()}"${weatherUnit}`}</p>
                     </div>
 
                 ))}
